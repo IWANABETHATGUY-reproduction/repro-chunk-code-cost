@@ -1,0 +1,77 @@
+[
+  {
+    "mode": "baseline",
+    "chunks": 6362,
+    "output_mb": 183.5,
+    "setup_ms": 1,
+    "write_ms": 21086,
+    "hooks_ms": {
+      "baseline-count": 2
+    },
+    "counters": {
+      "chunks_seen": 6362
+    },
+    "rss_mb": 2466,
+    "heap_mb": 8,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "code",
+    "chunks": 6362,
+    "output_mb": 183.5,
+    "setup_ms": 1,
+    "write_ms": 9644,
+    "hooks_ms": {
+      "read-code": 64
+    },
+    "counters": {
+      "read-code_chars": 183475025
+    },
+    "rss_mb": 2729,
+    "heap_mb": 206,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "code2",
+    "chunks": 6362,
+    "output_mb": 183.5,
+    "setup_ms": 1,
+    "write_ms": 2033,
+    "hooks_ms": {
+      "read-code-1": 65,
+      "read-code-2": 53
+    },
+    "counters": {
+      "read-code-1_chars": 183475025,
+      "read-code-2_chars": 183475025
+    },
+    "rss_mb": 2958,
+    "heap_mb": 403,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "renderChunk",
+    "chunks": 6362,
+    "output_mb": 183.5,
+    "setup_ms": 1,
+    "write_ms": 9197,
+    "hooks_ms": {
+      "render-chunk-noop": 19
+    },
+    "counters": {
+      "render_chunk_calls": 6362,
+      "render_chunk_chars": 183475025
+    },
+    "rss_mb": 2586,
+    "heap_mb": 83,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  }
+]

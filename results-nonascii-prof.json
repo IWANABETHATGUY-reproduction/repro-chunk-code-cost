@@ -1,0 +1,39 @@
+[
+  {
+    "mode": "code",
+    "chunks": 6382,
+    "output_mb": 185.2,
+    "setup_ms": 1,
+    "write_ms": 8688,
+    "hooks_ms": {
+      "read-code": 230
+    },
+    "counters": {
+      "read-code_chars": 183385091
+    },
+    "rss_mb": 2300,
+    "heap_mb": 390,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "renderedLength",
+    "chunks": 6382,
+    "output_mb": 185.2,
+    "setup_ms": 1,
+    "write_ms": 18148,
+    "hooks_ms": {
+      "read-renderedLength": 282
+    },
+    "counters": {
+      "rendered_length_sum": 182858467,
+      "module_records": 39437
+    },
+    "rss_mb": 2622,
+    "heap_mb": 81,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  }
+]

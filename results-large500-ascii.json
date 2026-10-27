@@ -1,0 +1,158 @@
+[
+  {
+    "mode": "baseline",
+    "chunks": 15183,
+    "output_mb": 497.9,
+    "setup_ms": 2,
+    "build_ms": 17117,
+    "op": "generate",
+    "hooks_ms": {
+      "baseline-count": 13
+    },
+    "counters": {
+      "chunks_seen": 15183
+    },
+    "rss_mb": 5402,
+    "heap_mb": 47,
+    "external_mb": 2,
+    "minify": false,
+    "ballast_mb": 0,
+    "ballast_objs": 0,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "code",
+    "chunks": 15183,
+    "output_mb": 497.9,
+    "setup_ms": 1,
+    "build_ms": 16818,
+    "op": "generate",
+    "hooks_ms": {
+      "read-code": 366
+    },
+    "counters": {
+      "read-code_chars": 497853629
+    },
+    "rss_mb": 5994,
+    "heap_mb": 539,
+    "external_mb": 2,
+    "minify": false,
+    "ballast_mb": 0,
+    "ballast_objs": 0,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "code2",
+    "chunks": 15183,
+    "output_mb": 497.9,
+    "setup_ms": 1,
+    "build_ms": 16344,
+    "op": "generate",
+    "hooks_ms": {
+      "read-code-1": 121,
+      "read-code-2": 185
+    },
+    "counters": {
+      "read-code-1_chars": 497853629,
+      "read-code-2_chars": 497853629
+    },
+    "rss_mb": 6433,
+    "heap_mb": 541,
+    "external_mb": 2,
+    "minify": false,
+    "ballast_mb": 0,
+    "ballast_objs": 0,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "modules",
+    "chunks": 15183,
+    "output_mb": 497.9,
+    "setup_ms": 0,
+    "build_ms": 14918,
+    "op": "generate",
+    "hooks_ms": {
+      "read-modules": 133
+    },
+    "counters": {
+      "module_records": 82380
+    },
+    "rss_mb": 5537,
+    "heap_mb": 127,
+    "external_mb": 2,
+    "minify": false,
+    "ballast_mb": 0,
+    "ballast_objs": 0,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "renderedLength",
+    "chunks": 15183,
+    "output_mb": 497.9,
+    "setup_ms": 0,
+    "build_ms": 15698,
+    "op": "generate",
+    "hooks_ms": {
+      "read-renderedLength": 267
+    },
+    "counters": {
+      "rendered_length_sum": 496385415,
+      "module_records": 82380
+    },
+    "rss_mb": 5549,
+    "heap_mb": 9,
+    "external_mb": 2,
+    "minify": false,
+    "ballast_mb": 0,
+    "ballast_objs": 0,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "renderChunk",
+    "chunks": 15183,
+    "output_mb": 497.9,
+    "setup_ms": 0,
+    "build_ms": 16891,
+    "op": "generate",
+    "hooks_ms": {
+      "render-chunk-noop": 44
+    },
+    "counters": {
+      "render_chunk_calls": 15183,
+      "render_chunk_chars": 497853629
+    },
+    "rss_mb": 5518,
+    "heap_mb": 97,
+    "external_mb": 2,
+    "minify": false,
+    "ballast_mb": 0,
+    "ballast_objs": 0,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "all",
+    "chunks": 15183,
+    "output_mb": 497.9,
+    "setup_ms": 0,
+    "build_ms": 15740,
+    "op": "generate",
+    "hooks_ms": {
+      "read-code-1": 99,
+      "read-code-2": 151,
+      "read-renderedLength": 227
+    },
+    "counters": {
+      "read-code-1_chars": 497853629,
+      "read-code-2_chars": 497853629,
+      "rendered_length_sum": 496385415,
+      "module_records": 82380
+    },
+    "rss_mb": 6475,
+    "heap_mb": 658,
+    "external_mb": 2,
+    "minify": false,
+    "ballast_mb": 0,
+    "ballast_objs": 0,
+    "node": "v26.8.1"
+  }
+]

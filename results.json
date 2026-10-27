@@ -1,0 +1,60 @@
+[
+  {
+    "mode": "baseline",
+    "chunks": 2079,
+    "output_mb": 163.9,
+    "setup_ms": 1,
+    "build_ms": 2746,
+    "op": "generate",
+    "hooks_ms": {
+      "baseline-count": 1
+    },
+    "counters": {
+      "chunks_seen": 2079
+    },
+    "rss_mb": 1227,
+    "heap_mb": 14,
+    "external_mb": 2,
+    "minify": true,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "code",
+    "chunks": 2079,
+    "output_mb": 163.9,
+    "setup_ms": 1,
+    "build_ms": 2348,
+    "op": "generate",
+    "hooks_ms": {
+      "read-code": 189
+    },
+    "counters": {
+      "read-code_chars": 162243463
+    },
+    "rss_mb": 1598,
+    "heap_mb": 337,
+    "external_mb": 2,
+    "minify": true,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "renderedLength",
+    "chunks": 2079,
+    "output_mb": 163.9,
+    "setup_ms": 0,
+    "build_ms": 2321,
+    "op": "generate",
+    "hooks_ms": {
+      "read-renderedLength": 207
+    },
+    "counters": {
+      "rendered_length_sum": 163255589,
+      "module_records": 12831
+    },
+    "rss_mb": 1266,
+    "heap_mb": 29,
+    "external_mb": 2,
+    "minify": true,
+    "node": "v26.8.1"
+  }
+]

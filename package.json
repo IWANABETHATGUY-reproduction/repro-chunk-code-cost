@@ -1,0 +1,13 @@
+{
+  "name": "repro-chunk-code-cost",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen": "node gen.mjs",
+    "build": "node build.mjs",
+    "all": "node run-all.mjs"
+  },
+  "devDependencies": {
+    "rolldown": "1.2.14"
+  }
+}

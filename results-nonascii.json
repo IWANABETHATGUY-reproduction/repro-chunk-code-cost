@@ -1,0 +1,137 @@
+[
+  {
+    "mode": "baseline",
+    "chunks": 6382,
+    "output_mb": 185.2,
+    "setup_ms": 1,
+    "write_ms": 9262,
+    "hooks_ms": {
+      "baseline-count": 3
+    },
+    "counters": {
+      "chunks_seen": 6382
+    },
+    "rss_mb": 2515,
+    "heap_mb": 8,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "code",
+    "chunks": 6382,
+    "output_mb": 185.2,
+    "setup_ms": 1,
+    "write_ms": 8276,
+    "hooks_ms": {
+      "read-code": 247
+    },
+    "counters": {
+      "read-code_chars": 183385091
+    },
+    "rss_mb": 2985,
+    "heap_mb": 389,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "code2",
+    "chunks": 6382,
+    "output_mb": 185.2,
+    "setup_ms": 1,
+    "write_ms": 9327,
+    "hooks_ms": {
+      "read-code-1": 249,
+      "read-code-2": 237
+    },
+    "counters": {
+      "read-code-1_chars": 183385091,
+      "read-code-2_chars": 183385091
+    },
+    "rss_mb": 2705,
+    "heap_mb": 769,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "modules",
+    "chunks": 6382,
+    "output_mb": 185.2,
+    "setup_ms": 1,
+    "write_ms": 7357,
+    "hooks_ms": {
+      "read-modules": 80
+    },
+    "counters": {
+      "module_records": 39437
+    },
+    "rss_mb": 2578,
+    "heap_mb": 65,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "renderedLength",
+    "chunks": 6382,
+    "output_mb": 185.2,
+    "setup_ms": 1,
+    "write_ms": 14837,
+    "hooks_ms": {
+      "read-renderedLength": 291
+    },
+    "counters": {
+      "rendered_length_sum": 182858467,
+      "module_records": 39437
+    },
+    "rss_mb": 2618,
+    "heap_mb": 72,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "renderChunk",
+    "chunks": 6382,
+    "output_mb": 185.2,
+    "setup_ms": 1,
+    "write_ms": 10485,
+    "hooks_ms": {
+      "render-chunk-noop": 21
+    },
+    "counters": {
+      "render_chunk_calls": 6382,
+      "render_chunk_chars": 183385091
+    },
+    "rss_mb": 2600,
+    "heap_mb": 46,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "all",
+    "chunks": 6382,
+    "output_mb": 185.2,
+    "setup_ms": 1,
+    "write_ms": 9898,
+    "hooks_ms": {
+      "read-code-1": 245,
+      "read-code-2": 230,
+      "read-renderedLength": 288
+    },
+    "counters": {
+      "read-code-1_chars": 183385091,
+      "read-code-2_chars": 183385091,
+      "rendered_length_sum": 182858467,
+      "module_records": 39437
+    },
+    "rss_mb": 3444,
+    "heap_mb": 69,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  }
+]

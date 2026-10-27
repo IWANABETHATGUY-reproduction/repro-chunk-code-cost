@@ -1,0 +1,120 @@
+[
+  {
+    "mode": "code",
+    "chunks": 15106,
+    "output_mb": 501,
+    "setup_ms": 0,
+    "build_ms": 16524,
+    "op": "generate",
+    "hooks_ms": {
+      "read-code": 673
+    },
+    "counters": {
+      "read-code_chars": 496026831
+    },
+    "rss_mb": 6566,
+    "heap_mb": 1035,
+    "external_mb": 2,
+    "minify": false,
+    "rolldown_pkg": "<rolldown worktree perf/chunk-code-cost>/packages/rolldown",
+    "ballast_mb": 0,
+    "ballast_objs": 0,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "code2",
+    "chunks": 15106,
+    "output_mb": 501,
+    "setup_ms": 0,
+    "build_ms": 16606,
+    "op": "generate",
+    "hooks_ms": {
+      "read-code-1": 707,
+      "read-code-2": 658
+    },
+    "counters": {
+      "read-code-1_chars": 496026831,
+      "read-code-2_chars": 496026831
+    },
+    "rss_mb": 7702,
+    "heap_mb": 2059,
+    "external_mb": 2,
+    "minify": false,
+    "rolldown_pkg": "<rolldown worktree perf/chunk-code-cost>/packages/rolldown",
+    "ballast_mb": 0,
+    "ballast_objs": 0,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "modules",
+    "chunks": 15106,
+    "output_mb": 501,
+    "setup_ms": 0,
+    "build_ms": 16556,
+    "op": "generate",
+    "hooks_ms": {
+      "read-modules": 140
+    },
+    "counters": {
+      "module_records": 82366
+    },
+    "rss_mb": 5539,
+    "heap_mb": 132,
+    "external_mb": 2,
+    "minify": false,
+    "rolldown_pkg": "<rolldown worktree perf/chunk-code-cost>/packages/rolldown",
+    "ballast_mb": 0,
+    "ballast_objs": 0,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "renderedLength",
+    "chunks": 15106,
+    "output_mb": 501,
+    "setup_ms": 0,
+    "build_ms": 16938,
+    "op": "generate",
+    "hooks_ms": {
+      "read-renderedLength": 692
+    },
+    "counters": {
+      "rendered_length_sum": 494563562,
+      "module_records": 82366
+    },
+    "rss_mb": 5081,
+    "heap_mb": 141,
+    "external_mb": 2,
+    "minify": false,
+    "rolldown_pkg": "<rolldown worktree perf/chunk-code-cost>/packages/rolldown",
+    "ballast_mb": 0,
+    "ballast_objs": 0,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "all",
+    "chunks": 15106,
+    "output_mb": 501,
+    "setup_ms": 0,
+    "build_ms": 17651,
+    "op": "generate",
+    "hooks_ms": {
+      "read-code-1": 658,
+      "read-code-2": 638,
+      "read-renderedLength": 687
+    },
+    "counters": {
+      "read-code-1_chars": 496026831,
+      "read-code-2_chars": 496026831,
+      "rendered_length_sum": 494563562,
+      "module_records": 82366
+    },
+    "rss_mb": 7376,
+    "heap_mb": 2177,
+    "external_mb": 2,
+    "minify": false,
+    "rolldown_pkg": "<rolldown worktree perf/chunk-code-cost>/packages/rolldown",
+    "ballast_mb": 0,
+    "ballast_objs": 0,
+    "node": "v26.8.1"
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "mode": "baseline",
+    "chunks": 6362,
+    "output_mb": 183.5,
+    "setup_ms": 0,
+    "build_ms": 7054,
+    "op": "generate",
+    "hooks_ms": {
+      "baseline-count": 3
+    },
+    "counters": {
+      "chunks_seen": 6362
+    },
+    "rss_mb": 2480,
+    "heap_mb": 8,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "code",
+    "chunks": 6362,
+    "output_mb": 183.5,
+    "setup_ms": 0,
+    "build_ms": 7049,
+    "op": "generate",
+    "hooks_ms": {
+      "read-code": 77
+    },
+    "counters": {
+      "read-code_chars": 183475025
+    },
+    "rss_mb": 2736,
+    "heap_mb": 206,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "code2",
+    "chunks": 6362,
+    "output_mb": 183.5,
+    "setup_ms": 0,
+    "build_ms": 6960,
+    "op": "generate",
+    "hooks_ms": {
+      "read-code-1": 57,
+      "read-code-2": 42
+    },
+    "counters": {
+      "read-code-1_chars": 183475025,
+      "read-code-2_chars": 183475025
+    },
+    "rss_mb": 2949,
+    "heap_mb": 403,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "modules",
+    "chunks": 6362,
+    "output_mb": 183.5,
+    "setup_ms": 0,
+    "build_ms": 6774,
+    "op": "generate",
+    "hooks_ms": {
+      "read-modules": 79
+    },
+    "counters": {
+      "module_records": 39455
+    },
+    "rss_mb": 2537,
+    "heap_mb": 65,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "renderedLength",
+    "chunks": 6362,
+    "output_mb": 183.5,
+    "setup_ms": 0,
+    "build_ms": 6947,
+    "op": "generate",
+    "hooks_ms": {
+      "read-renderedLength": 105
+    },
+    "counters": {
+      "rendered_length_sum": 182950925,
+      "module_records": 39455
+    },
+    "rss_mb": 2577,
+    "heap_mb": 73,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "renderChunk",
+    "chunks": 6362,
+    "output_mb": 183.5,
+    "setup_ms": 0,
+    "build_ms": 6806,
+    "op": "generate",
+    "hooks_ms": {
+      "render-chunk-noop": 18
+    },
+    "counters": {
+      "render_chunk_calls": 6362,
+      "render_chunk_chars": 183475025
+    },
+    "rss_mb": 2584,
+    "heap_mb": 72,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  },
+  {
+    "mode": "all",
+    "chunks": 6362,
+    "output_mb": 183.5,
+    "setup_ms": 0,
+    "build_ms": 7799,
+    "op": "generate",
+    "hooks_ms": {
+      "read-code-1": 51,
+      "read-code-2": 40,
+      "read-renderedLength": 101
+    },
+    "counters": {
+      "read-code-1_chars": 183475025,
+      "read-code-2_chars": 183475025,
+      "rendered_length_sum": 182950925,
+      "module_records": 39455
+    },
+    "rss_mb": 3028,
+    "heap_mb": 456,
+    "external_mb": 2,
+    "minify": false,
+    "node": "v26.8.1"
+  }
+]
